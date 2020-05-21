@@ -1,0 +1,163 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	background-color:#777;
+}
+
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container
+{
+	width:637px;
+	height:900px;
+	background-color:#000;
+	margin:20px auto;
+	position:relative;
+	overflow:hidden;
+}
+
+.foto
+{
+	position:absolute;
+	top:48%;
+	left:30%;
+	width:500px;
+}
+
+.foto img
+{
+	width:500px;
+	border:3px solid #fff ;
+	border-radius:0px;
+}	
+
+.herb
+{
+	position:absolute;
+	top:13%;
+	right:5%;
+	width:100px;
+}
+
+.herb img
+{
+	width:100px;
+	border:0px solid #fff ;
+	border-radius:50%;
+}	
+
+.czerwony
+{
+	width:637px;
+	height:900px;
+	position:absolute;
+	left:0;
+	top:10%;
+	transform:rotate(75deg);
+	background-color:#ff0000;
+	border-left:0px solid #fff;
+}	
+
+.logo 
+{
+	color:#fff;
+	font-size:28px;
+	position:absolute;
+	left:0;
+	top:0;
+	margin:20px 30px;
+	text-shadow:0px 0px 8px #aaa;
+	font-weight:800;
+}
+
+.logo h1
+{
+	font-weight:400;
+}
+
+.tel
+{
+	color:#fff;
+	font-size:40px;
+	position:absolute;
+	top:26%;
+	right:5%;
+	font-weight:400;
+	text-shadow:0px 0px 8px #daa;
+}
+
+.tel i
+{
+	margin:0 15px;
+}
+
+.adres
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:19%;
+	left:5%;
+	font-weight:300;
+	text-shadow:0px 0px 8px #daa;
+}	
+	
+.godz
+{
+	color:#fff;
+	font-size:20px;
+	position:absolute;
+	top:35%;
+	right:8%;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-align:center;
+}	
+	
+.rekl
+{
+	color:#000;
+	font-size:50px;
+	position:absolute;
+	top:32%;
+	left:5%;
+	font-weight:300;
+	text-shadow:0px 0px 8px #333;
+}		
+
+.stopka
+{
+	color:#fff;
+	font-size:19px;
+	position:absolute;
+	bottom:5%;
+	left:0;
+	width:100%;
+	font-weight:300;
+	text-shadow:0px 0px 4px #daa;
+}	
+
+.stopka p
+{
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+}
+
+.menu 
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:57%;
+	left:2%;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+}

@@ -1,0 +1,855 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	background-color:#777;
+}
+
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container
+{
+	width:637px;
+	height:900px;
+	background-color:#f00;
+	margin:20px auto;
+	position:relative;
+	overflow:hidden;
+}
+
+.czerwony
+{
+	width:637px;
+	height:900px;
+	position:absolute;
+	left:0;
+	top:10%;
+	transform:rotate(75deg);
+	background-color:#000000;
+	border-left:0px solid #fff;
+}	
+
+.logo 
+{
+	color:#fff;
+	font-size:28px;
+	position:absolute;
+	left:0;
+	top:0;
+	margin:10px 40px;
+	text-shadow:0px 0px 8px #faa;
+	font-weight:800;
+}
+
+.logo h1
+{
+	font-weight:400;
+}
+
+.tel
+{
+	color:#fff;
+	font-size:40px;
+	position:absolute;
+	right:0;
+	top:0;
+	margin:20px 40px;
+	font-weight:400;
+	text-shadow:0px 0px 8px #daa;
+}
+
+.tel i
+{
+	margin:0 15px;
+}
+
+
+
+
+
+.menu_wrapper
+{
+	border: 3px solid #fff;
+	position:absolute;
+	width:330px;
+	height:570px;
+	top:9%;
+	left:2%;
+	background: linear-gradient(to bottom, #888 , #222 100%);
+	border-radius:20px;
+}
+
+.menu 
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:10%;
+	left:7%;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_rodzaje
+{
+	font-size:15px;
+	line-height:100%;
+}
+
+.pizza_rodzaje p 
+{
+	font-size:10px;
+}
+
+.ceny
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:10%;
+	left:30%;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_wymiary
+{
+	font-size:15px;
+	line-height:100%;
+}
+
+.pizza_wymiary span
+{
+	padding:0 5px 0 5px;
+}
+
+.pizza_wymiary_cm_główny
+{
+	font-size:12px;
+	line-height:100%;
+}
+
+.pizza_wymiary_cm_główny span
+{
+	padding:0 12px 0 8px;
+}
+
+.ceny_elo
+{
+	position:absolute;
+	top:122%;
+	left:0%;
+}
+
+.pizza_wymiary_cm 
+{
+	font-size:12px;
+	line-height:258%;
+}
+
+.pizza_wymiary_cm span
+{
+	padding:0 19px 0 17px;
+}
+
+
+
+
+
+.menu_wrapper_dodatki
+{
+	border: 3px solid #fff;
+	position:absolute;
+	width:330px;
+	height:145px;
+	top:663px;
+	left:2%;
+	background: linear-gradient(to bottom, #333 , #000 100%);
+	border-radius:20px;
+}
+
+.menu_dodatki
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:74%;
+	left:7%;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_dodatki
+{
+	padding-bottom:34px;
+}
+
+.pizza_rodzaje_dodatki
+{
+	font-size:15px;
+	line-height:100%;
+}
+
+.pizza_rodzaje_dodatki p 
+{
+	font-size:10px;
+}
+
+.tylko_padding
+{
+	padding-top:10px;
+}
+
+.ceny_dodatki
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:78%;
+	left:32%;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_wymiary_dodatki
+{
+	font-size:15px;
+	line-height:100%;
+}
+
+.pizza_wymiary_dodatki span
+{
+	padding:0 5px 0 5px;
+}
+
+.pizza_wymiary_cm_główny_dodatki
+{
+	font-size:12px;
+	line-height:100%;
+}
+
+.pizza_wymiary_cm_główny_dodatki span
+{
+	padding:0 12px 0 8px;
+}
+
+.ceny_elo_dodatki
+{
+	position:absolute;
+	top:122%;
+	left:0%;
+}
+
+.pizza_wymiary_cm_dodatki 
+{
+	font-size:12px;
+	line-height:258%;
+}
+
+.pizza_wymiary_cm_dodatki span
+{
+	padding:0 25px 0 25px;
+}
+
+.stopka_dodatki
+{
+	color:#fff;
+	font-size:19px;
+	position:absolute;
+	bottom:5%;
+	left:0;
+	width:100%;
+	font-weight:300;
+	text-shadow:0px 0px 4px #daa;
+}	
+
+.stopka_dodatki p
+{
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+.menu_wrapper_calzone
+{
+	border: 3px solid #fff;
+	position:absolute;
+	width:270px;
+	height:150px;
+	top:9%;
+	left:56%;
+	background: linear-gradient(to bottom, #888 , #777 100%);
+	border-radius:20px;
+}
+
+.menu_calzone
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:9%;
+	left:378px;
+	font-weight:500;
+	line-height:170%;
+	text-shadow:0px 0px 0px #000;
+	color:#000;
+}
+
+.pizza_calzone
+{
+	padding-bottom:34px;
+}
+
+.pizza_rodzaje_calzone
+{
+	font-size:15px;
+	line-height:100%;
+}
+
+.pizza_rodzaje_calzone p 
+{
+	font-size:10px;
+}
+
+
+.ceny_calzone
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:132px;
+	left:85%;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_wymiary_calzone
+{
+	font-size:15px;
+	line-height:100%;
+}
+
+.pizza_wymiary_calzone span
+{
+	padding:0 5px 0 5px;
+}
+
+.pizza_wymiary_cm_główny_calzone
+{
+	font-size:12px;
+	line-height:100%;
+}
+
+.pizza_wymiary_cm_główny_calzone span
+{
+	padding:0 12px 0 8px;
+}
+
+.ceny_elo_calzone
+{
+	position:absolute;
+	top:122%;
+	left:6%;
+}
+
+.pizza_wymiary_cm_calzone
+{
+	font-size:12px;
+	line-height:258%;
+}
+
+.pizza_wymiary_cm_calzone span
+{
+	padding:0 5px 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.menu_wrapper_calzone_kubek
+{
+	border: 3px solid #fff;
+	position:absolute;
+	width:270px;
+	height:152px;
+	top:9%;
+	left:56%;
+	background: linear-gradient(to bottom, #888 , #777 100%);
+	border-radius:20px;
+}
+
+.menu_calzone_kubek
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:9%;
+	left:378px;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_calzone_kubek
+{
+	padding-bottom:10px;
+}
+
+.pizza_rodzaje_calzone_kubek
+{
+	font-size:15px;
+	line-height:100%;
+}
+
+.pizza_rodzaje_calzone_kubek p 
+{
+	font-size:10px;
+}
+
+.ceny_calzone_kubek
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:107px;
+	left:90%;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_wymiary_calzone_kubek
+{
+	font-size:15px;
+	line-height:100%;
+}
+
+.pizza_wymiary_calzone_kubek span
+{
+	padding:0 5px 0 5px;
+}
+
+.pizza_wymiary_cm_główny_calzone_kubek
+{
+	font-size:12px;
+	line-height:100%;
+}
+
+.pizza_wymiary_cm_główny_calzone_kubek span
+{
+	padding:0 12px 0 8px;
+}
+
+.ceny_elo_calzone_kubek
+{
+	position:absolute;
+	top:122%;
+	left:6%;
+}
+
+.pizza_wymiary_cm_calzone_kubek
+{
+	font-size:12px;
+	line-height:258%;
+}
+
+.pizza_wymiary_cm_calzone_kubek span
+{
+	padding:0 5px 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_wrapper_fast-food
+{
+	border: 3px solid #fff;
+	position:absolute;
+	width:270px;
+	height:258px;
+	top:245px;
+	left:56%;
+	background: linear-gradient(to bottom, #777 , #444 100%);
+	border-radius:20px;
+}
+
+.menu_fast-food
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:245px;
+	left:378px;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_fast-food
+{
+
+}
+
+.pizza_rodzaje_fast-food
+{
+	font-size:15px;
+	line-height:170%;
+}
+
+.pizza_rodzaje_fast-food p 
+{
+	font-size:10px;
+}
+
+.min_height
+{
+	line-height:100%;
+}
+
+.ceny_fast-food
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:285px;
+	left:589px;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+
+
+.pizza_wymiary_cm_główny_fast-food
+{
+	font-size:12px;
+	line-height:100%;
+}
+
+.pizza_wymiary_cm_główny_fast-food span
+{
+	padding:0 12px 0 8px;
+}
+
+.ceny_elo_fast-food
+{
+	position:absolute;
+	top:122%;
+	left:6%;
+}
+
+.pizza_wymiary_cm_fast-food
+{
+	font-size:12px;
+	line-height:220%;
+}
+
+.pizza_wymiary_cm_fast-food span
+{
+	padding:0 5px 0 5px;
+}
+
+.min_height
+{
+	line-height:90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_wrapper_dodatki2
+{
+	border: 3px solid #fff;
+	position:absolute;
+	width:270px;
+	height:150px;
+	top:514px;
+	left:56%;
+	background: linear-gradient(to bottom, #444 , #222 100%);
+	border-radius:20px;
+}
+
+.menu_dodatki2
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:514px;
+	left:378px;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_dodatki2
+{
+
+}
+
+.pizza_rodzaje_dodatki2
+{
+	font-size:15px;
+	line-height:170%;
+}
+
+.pizza_rodzaje_dodatki2 p 
+{
+	font-size:10px;
+}
+
+.min_height
+{
+	line-height:100%;
+}
+
+.ceny_dodatki2
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:554px;
+	left:580px;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+
+
+.pizza_wymiary_cm_główny_dodatki2
+{
+	font-size:12px;
+	line-height:100%;
+}
+
+.pizza_wymiary_cm_główny_dodatki2 span
+{
+	padding:0 12px 0 8px;
+}
+
+.ceny_elo_dodatki2
+{
+	position:absolute;
+	top:122%;
+	left:6%;
+}
+
+.pizza_wymiary_cm_dodatki2
+{
+	font-size:12px;
+	line-height:220%;
+}
+
+.pizza_wymiary_cm_dodatki2 span
+{
+	padding:0 5px 0 5px;
+}
+
+.min_dodatki2
+{
+	line-height:90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_wrapper_sosy
+{
+	border: 3px solid #fff;
+	position:absolute;
+	width:270px;
+	height:214px;
+	top:675px;
+	left:56%;
+	background: linear-gradient(to bottom, #222 , #000 100%);
+	border-radius:20px;
+}
+
+.menu_sosy
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:75%;
+	left:378px;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_sosy
+{
+
+}
+
+.pizza_rodzaje_sosy
+{
+	font-size:15px;
+	line-height:110%;
+}
+
+.pizza_rodzaje_sosy p 
+{
+	font-size:10px;
+	line-height:110%;
+}
+
+.min_height
+{
+	line-height:100%;
+}
+
+.ceny_sosy
+{
+	color:#fff;
+	font-size:25px;
+	position:absolute;
+	top:678px;
+	left:539px;
+	font-weight:500;
+	text-shadow:0px 0px 8px #daa;
+	line-height:170%;
+	text-shadow:0px 0px 0px #daa;
+}
+
+.pizza_wymiary_sosy
+{
+	font-size:15px;	
+	padding-bottom:20px;
+}
+
+.pizza_wymiary_sosy span
+{
+	padding: 0 5px 0 5px;	
+}
+
+.pizza_wymiary_cm_główny_sosy
+{
+	font-size:12px;
+	line-height:100%;
+}
+
+.pizza_wymiary_cm_główny_sosy span
+{
+	padding:0 12px 0 8px;
+}
+
+.ceny_elo_sosy
+{
+	position:absolute;
+	top:60%;
+	left:6%;
+}
+
+.pizza_wymiary_cm_sosy
+{
+	font-size:12px;
+	line-height:220%;
+}
+
+.pizza_wymiary_cm_sosy span
+{
+	padding:0 14px 0 5px;
+}
+
+.min_sosy
+{
+	line-height:90%;
+}
+
+.wyjątkowy_ketchup
+{
+	line-height:150%;
+}
+
+
+
+
+
+
+
+
+
+
+.stopka
+{
+	color:#fff;
+	font-size:19px;
+	position:absolute;
+	bottom:3%;
+	left:0;
+	margin-left:15px;
+	width:100%;
+	line-height:150%;
+	font-weight:300;
+	text-shadow:0px 0px 4px #daa;
+}	
+
+.stopka p
+{
+	margin-right:auto;
+	margin-left:auto;
+	text-align:left;
+}
